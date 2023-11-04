@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Green Titan | Get Involved</title>
+        <link rel="stylesheet" href="styleNew.css">
+        <link rel="stylesheet" href="styleGI.css">
+        <link rel="icon" type="image/png" href="images/green-titan--favicon.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+        <style>
+      
+
+      input::placeholder{
+        color: white;
+      }
+      textarea::placeholder{
+        color: white;
+      }
+        </style>
+    </head>
+    <body>
+        <!-- How header goes here -->
+        <header>
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fa-solid fa-bars"></i>
+                </label> 
+                <img src="images/green-titan-logo.png" alt="logo"> 
+                <ul class="menu">
+                    <li>
+                        <a  href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="projects.html">Projects</a>
+                    </li>
+                    <li>
+                        <a href="api_news.html">Climate News</a>
+                    </li>
+                    <li>
+                        <a href="carboncalc.html">Carbon Calculator</a>
+                    </li>
+                    <li>
+                        <a class="active" href="#">Get Involved</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!-- ends here -->
+        <main>
+            <section id="get-involved">
+                <h2 style="text-align: center;">
+                    <strong>Get involved in the fight against climate change</strong>
+                </h2>
+            </section>
+            <div id="form">
+                <form name="submit-to-google-sheet" method="post">
+                    <div class="input_group">
+                        <input
+                            type="text"
+                            id="name"
+                            placeholder="Your Name"
+                            required
+                            style="color: white;"
+                        >
+                        <!-- <label for="name">Your name</label> -->
+                    </div>
+                    <div class="input_group">
+                        <input
+                            type="email"
+                            id="email"
+                            placeholder="Your Email Address"
+                            required
+                        >
+                        <!-- <label for="email">Your Email Address</label> -->
+                    </div>
+                    <div class="input_group">
+                        <label for="interest">Your Interest</label><br><br>
+                        <select id="interest">
+                            <option value="Reduce carbon footprint">Reduce carbon emissions</option>
+                            <option value="Support organizations">Support organizations/project</option>
+                            <option value="Submit project">Submit project</option>
+                            <option value="Advocate for climate action">Advocate for climate action</option>
+                            <option value="Volunteer">Volunteer</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                    <div class="input_group">
+                        <textarea id="message" rows="8" placeholder="Your Message"></textarea>
+                        <!--<label for="message">Your Message</label>-->
+                    </div>
+                    <button type="submit" style="background: red; color: white;">SUBMIT</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </main>
+        <!--
+    <footer>
+      <div class="footer-content">
+          <h3>Green Titan Educator</h3>
+          <p>enhancing the branding and recognition of your website.</p>
+          <ul class="socials">
+              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+              <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+          </ul>
+      </div>
+      <div class="footer-bottom">
+          <p>copyright &copy;2023 Green Titan Educator</p>
+      </div>
+    </footer>-->
+        <script src="scriptGI.js"></script>
+    </body>
+</html>

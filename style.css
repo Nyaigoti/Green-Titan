@@ -1,0 +1,115 @@
+/* Global styles */
+
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  main {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  /* Hero section */
+  
+  #hero {
+    background-image: url(images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+  }
+  
+  #hero h2 {
+    color: #75cc1d;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  #hero p {
+    color: #75cc1d;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  /* Impacts section */
+  
+  #impacts {
+    padding: 25px 0;
+  }
+  
+  #impacts h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  #impacts ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #impacts li {
+    margin-bottom: 5px;
+  }
+  
+  /* Solutions section */
+  
+  #solutions {
+    padding: 25px 0;
+  }
+  
+  #solutions h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  #solutions ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #solutions li {
+    margin-bottom: 5px;
+  }
+  
+  /*
+  .hero, .impacts, .solutions {
+      padding: 1rem;
+    }
+    
+    .hero h2 {
+      font-size: 2rem;
+    }
+    
+    .impacts ul {
+      list-style-type: none;
+      padding-left: 1rem;
+      list-style-type: disc;
+    }
+    
+    .solutions ul {
+      list-style-type: none;
+      padding-left: 1rem;
+      list-style-type: disc;
+    }
+  section img{
+      height: 500px;
+      width: 1300px;
+  }
+  
+  
+    @media screen and (max-width: 768px) {
+      .hero h2 {
+        font-size: 1.5rem;
+      }
+    
+      .impacts ul {
+        padding-left: 0;
+      }
+    
+      .solutions ul {
+        padding-left: 0;
+      }
+    }
+      
